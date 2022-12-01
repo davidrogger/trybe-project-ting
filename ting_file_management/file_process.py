@@ -37,5 +37,10 @@ def remove(instance: Queue):
         return sys.stdout.write("Não há elementos\n")
 
 
-def file_metadata(instance, position):
-    """Aqui irá sua implementação"""
+def file_metadata(instance: Queue, position: int):
+    try:
+        file_data = instance.search(position)
+    except IndexError:
+        return sys.stderr.write("Posição inválida")
+    else:
+        return sys.stdout.write(str(file_data))
