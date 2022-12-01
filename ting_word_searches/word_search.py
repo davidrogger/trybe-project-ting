@@ -41,4 +41,4 @@ def exists_word(word: str, instance: Queue):
 
 
 def search_by_word(word: str, instance: Queue):
-    """Aqui irá sua implementação"""
+    return generate_report_by_word(word, instance, include_phrase=True)
