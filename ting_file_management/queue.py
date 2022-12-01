@@ -1,15 +1,22 @@
+from collections import deque
+
+
 class Queue:
     def __init__(self):
-        """Initial commit"""
+        self.queue = deque()
 
     def __len__(self):
-        """Aqui irá sua implementação"""
+        return len(self.queue)
 
     def enqueue(self, value):
-        """Aqui irá sua implementação"""
+        self.queue.append(value)
+        return value
 
     def dequeue(self):
-        """Aqui irá sua implementação"""
+        return self.queue.popleft()
 
     def search(self, index):
-        """Aqui irá sua implementação"""
+        if index < 0:
+            raise IndexError
+
+        return self.queue[index]
