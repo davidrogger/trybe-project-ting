@@ -13,15 +13,19 @@
 
 # Classe Queue
 
-Initialmente foi criado uma classe `Queue`, na pasta `ting_file_management/queue.py`, responsavel por padronizar a estrutura de fila, por recomandações da trybe e da documentação do python, optei por criar o atributo dessa classe usando a coleção deque, que é mais performática quando relacionado a estrutura de filas, por questão de deslocamento dos elementos ao inserir ou remover elementos da fila. [fonte](https://docs.python.org/pt-br/3/tutorial/datastructures.html#using-lists-as-queues)
+Initialmente foi criado uma classe `Queue`, na pasta `ting_file_management/queue.py`, responsável por padronizar a estrutura de fila, por recomandações da trybe e da documentação do python, optei por criar o atributo dessa classe usando a coleção deque, que é mais performática quando relacionado a estrutura de filas, por questão de deslocamento dos elementos ao inserir ou remover elementos da fila. [fonte](https://docs.python.org/pt-br/3/tutorial/datastructures.html#using-lists-as-queues)
 
 # Método txt_importer
 
-Método encontrado na pasta `ting_file_management/file_manament.py`, responsavel por coletar as informações de um arquivo txt, aceitando somente arquivos com extensões txt, ele retorna uma lista sendo cada elemento da lista uma linha do arquivo.
+Método encontrado na pasta `ting_file_management/file_manament.py`, responsável por coletar as informações de um arquivo txt, aceitando somente arquivos com extensões txt, ele retorna uma lista sendo cada elemento da lista uma linha do arquivo.
 
 # Método process
 
 Encontrado na pasta `ting_file_management/file_process.py`, ele que processa as informação dentro da fila, ele recebe como parâmetro o caminho onde está o arquivo txt juntamente com uma instância da Fila, para realizar o enfileiramento das informação dos arquivos, por padrão ele não enfileira arquivos com o mesmo nome/caminho(duplicando dados).
+
+# Método remove
+
+Encontrado na pasta `ting_file_management/file_process.py`, responsável por quando a instância da fila não está vázia de remover o primeiro elemento dela(FIFO).
 
 </details>
 
