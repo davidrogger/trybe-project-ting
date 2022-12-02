@@ -11,6 +11,9 @@
     </strong>
   </summary>
 
+# Classe Queue
+
+Initialmente foi criado uma classe `Queue`, na pasta `ting_file_management/queue.py`, responsavel por padronizar a estrutura de fila, por recomandações da trybe e da documentação do python, optei por criar o atributo dessa classe usando a coleção deque, que é mais performática quando relacionado a estrutura de filas, por questão de deslocamento dos elementos ao inserir ou remover elementos da fila. [fonte](https://docs.python.org/pt-br/3/tutorial/datastructures.html#using-lists-as-queues)
 
 </details>
 
