@@ -19,6 +19,9 @@ Initialmente foi criado uma classe `Queue`, na pasta `ting_file_management/queue
 
 Método encontrado na pasta `ting_file_management/file_manament.py`, responsavel por coletar as informações de um arquivo txt, aceitando somente arquivos com extensões txt, ele retorna uma lista sendo cada elemento da lista uma linha do arquivo.
 
+# Método process
+
+Encontrado na pasta `ting_file_management/file_process.py`, ele que processa as informação dentro da fila, ele recebe como parâmetro o caminho onde está o arquivo txt juntamente com uma instância da Fila, para realizar o enfileiramento das informação dos arquivos, por padrão ele não enfileira arquivos com o mesmo nome/caminho(duplicando dados).
 
 </details>
 
