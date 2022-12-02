@@ -21,15 +21,19 @@ Método encontrado na pasta `ting_file_management/file_manament.py`, responsáve
 
 # Método process
 
-Encontrado em `ting_file_management/file_process.py`, ele que processa as informação dentro da fila, ele recebe como parâmetro o caminho onde está o arquivo txt juntamente com uma instância da Fila, para realizar o enfileiramento das informação dos arquivos, por padrão ele não enfileira arquivos com o mesmo nome/caminho(duplicando dados).
+Encontrado em `ting_file_management/file_process.py`, ele que processa as informação dentro da `Queue`, ele recebe como parâmetro o caminho onde está o arquivo txt juntamente com uma instância da `Queue`, para realizar o enfileiramento das informação dos arquivos, por padrão ele não enfileira arquivos com o mesmo nome/caminho(duplicando dados).
 
 # Método remove
 
-Encontrado em `ting_file_management/file_process.py`, responsável por quando a instância da fila não está vázia de remover o primeiro elemento dela(FIFO).
+Encontrado em `ting_file_management/file_process.py`, responsável por quando a instância da `Queue` não está vázia de remover o primeiro elemento dela(FIFO).
 
 # Método file_metadata
 
-Encontrado em `ting_file_management/file_process.py`, método responsavel por mostrar na tela os dados salvos na posição do indice passada como parâmetro, do primeiro ao último elemento na fila.
+Encontrado em `ting_file_management/file_process.py`, método responsavel por mostrar na tela os dados salvos na posição do indice passada como parâmetro, do primeiro ao último elemento na `Queue`.
+
+# Método exists_word
+
+Encontrado em `ting_search_word/word_search.py`, esse método recebe 2 parâmetros, uma instância de `Queue` a palavra que deseja procurar nos arquivos que foram processados com o método process da `Queue`, retornando um relatório, passando em quais linhas a palavra foi encontrada de qual arquivo, e caso não seja encontrada a palavra, o relatório trás uma lista vazia.
 
 </details>
 
