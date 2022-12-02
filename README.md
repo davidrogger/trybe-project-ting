@@ -35,6 +35,12 @@ Encontrado em `ting_file_management/file_process.py`, método responsavel por mo
 
 Encontrado em `ting_search_word/word_search.py`, esse método recebe 2 parâmetros, uma instância de `Queue` a palavra que deseja procurar nos arquivos que foram processados com o método process da `Queue`, retornando um relatório, passando em quais linhas a palavra foi encontrada de qual arquivo, e caso não seja encontrada a palavra, o relatório trás uma lista vazia.
 
+# Método search_by_word
+
+Encontrado em `ting_search_word/word_search.py`, assim como o método exists, ele cria um relatório referente a palavra com base na `Queue`, trazendo uma informação adicional, que é o conteudo da linha, que ele encontrou a palavra.
+Nesse método eu fragmentei o código do exists word, para reutiliza-lo, adicionando um parametro, onde eu determino se ele deve trazer o relatório com ou sem frase, evitando de criar a repetição do código, para tazer uma informação adicional.
+Fazendo isso, veio em mente, e se existirem outro métodos parecidos com esse pegando mais informações adicionais, provavelmente trocaria o if, para um object literal, onde faria como extensão, para criar métodos que extraem a informação desejada.
+
 </details>
 
 #
