@@ -21,11 +21,15 @@ Método encontrado na pasta `ting_file_management/file_manament.py`, responsáve
 
 # Método process
 
-Encontrado na pasta `ting_file_management/file_process.py`, ele que processa as informação dentro da fila, ele recebe como parâmetro o caminho onde está o arquivo txt juntamente com uma instância da Fila, para realizar o enfileiramento das informação dos arquivos, por padrão ele não enfileira arquivos com o mesmo nome/caminho(duplicando dados).
+Encontrado em `ting_file_management/file_process.py`, ele que processa as informação dentro da fila, ele recebe como parâmetro o caminho onde está o arquivo txt juntamente com uma instância da Fila, para realizar o enfileiramento das informação dos arquivos, por padrão ele não enfileira arquivos com o mesmo nome/caminho(duplicando dados).
 
 # Método remove
 
-Encontrado na pasta `ting_file_management/file_process.py`, responsável por quando a instância da fila não está vázia de remover o primeiro elemento dela(FIFO).
+Encontrado em `ting_file_management/file_process.py`, responsável por quando a instância da fila não está vázia de remover o primeiro elemento dela(FIFO).
+
+# Método file_metadata
+
+Encontrado em `ting_file_management/file_process.py`, método responsavel por mostrar na tela os dados salvos na posição do indice passada como parâmetro, do primeiro ao último elemento na fila.
 
 </details>
 
