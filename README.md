@@ -52,7 +52,7 @@ Fazendo isso, veio em mente, e se existirem outro métodos parecidos com esse pe
 
 # Desafios
 
-- 
+- Sem sobra de dúvidas a criação dos dois últimos métodos (exist, search_by_word) é algo que eu ainda quero pensar mais em outras formas de como soluciona-lo, quero ver se existe uma forma de reduzir seu nível de complexidade, pois ficou muito grande sendo O(n^3), pois aninho 3 fors, inicialmente percorrendo os elementos da `Queue` em seguida, percorrendo as linhas da instância, e ao percorrer as linhas eu procuro pela palavra "word in phrase" sendo outro for aninhado.
 
 # Conclusão
 
