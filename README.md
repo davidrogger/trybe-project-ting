@@ -6,12 +6,8 @@
 
 #
 <div align="center">
-  <a href="./screenshots/home.png">
     <img src="./readme-imgs/project_top.webp" width="30%"></img>
-  </a>
-  <a href="./screenshots/jobs_list.png">
     <img src="./readme-imgs/project_mid.webp" width="30%"></img>
-  </a>
 </div>
 
 >Ilustração pilha de livros e fila de pessoas
