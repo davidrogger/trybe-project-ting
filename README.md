@@ -1,8 +1,20 @@
-# Sobre o Projeto 
+# Sobre
 
-- Quinto projeto do modulo de Ciências da Computação da trybe.
-- Durante essa seção foi apresentado EA (Estrutura de dados) e TAD (tipos abstratos de dados), focando em apresentar a estrutura de Lista encadeada, Pilhas(LIFO) e filas(FIFO).
-- Neste projeto, foram desenvolvidos métodos usando a estrutura de fila, para coleta de informações de um arquivo por linha, marcando cada linha e a frase daquela determinada linha, onde é possível salva-las e depois buscar por palavras específicas se existem no arquivo, retornando um relatório, de onde a palavra se encontra no arquivo(qual linha), e também trazer a frase juntamente com o relatório.
+## Seção: `Estrutura de Dados`
+
+- Apresentado EA (Estrutura de dados) e TAD (tipos abstratos de dados), focando em apresentar a estrutura de Lista encadeada, Pilhas(LIFO) e filas(FIFO).
+
+#
+<div align="center">
+    <img src="./readme-imgs/project_top.webp" width="30%"></img>
+    <img src="./readme-imgs/project_mid.webp" width="30%"></img>
+</div>
+
+>Ilustração pilha de livros e fila de pessoas
+
+## Projeto: `TING`
+
+- Desenvolvidos métodos usando a estrutura de fila, para coleta de informações de um arquivo por linha, marcando cada linha e a frase daquela determinada linha, onde é possível salva-las e depois buscar por palavras específicas se existem no arquivo, retornando um relatório, de onde a palavra se encontra no arquivo(qual linha), e também trazer a frase juntamente com o relatório.
 
 <details>
   <summary>
@@ -102,5 +114,10 @@ Fazendo isso, veio em mente, e se existirem outro métodos parecidos com esse pe
 7.2 - Será validado que ao executar a função `search_by_word` com palavra inexistente deverá retornar uma lista vazia | :heavy_check_mark:
 
 
-
 </details>
+
+#
+
+<div align="right">
+  <img src="https://badgen.net/badge/last%20update/28-02-2023/blue">
+</div>
