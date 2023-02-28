@@ -7,17 +7,14 @@
 #
 <div align="center">
   <a href="./screenshots/home.png">
-    <img src="./screenshots/home.png" width="30%"></img>
+    <img src="./readme-imgs/project_top.webp" width="30%"></img>
   </a>
   <a href="./screenshots/jobs_list.png">
-    <img src="./screenshots/jobs_list.png" width="30%"></img>
-  </a>
-  <a href="./screenshots/job_detail.png">
-    <img src="./screenshots/job_detail.png" width="30%"></img>
+    <img src="./readme-imgs/project_mid.webp" width="30%"></img>
   </a>
 </div>
 
->Amostra do frontend desenvolvido pela trybe
+>Ilustração pilha de livros e fila de pessoas
 
 ## Projeto: `TING`
 
